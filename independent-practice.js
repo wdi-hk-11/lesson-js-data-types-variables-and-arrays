@@ -10,21 +10,24 @@
  * Create an array of image sources. Use image1.png, image2.png, and image3.png as the array values.
  */
 
-// Your code here
+var images = ["image1.png", "image2.png", "image3.png"];
+console.log(images);
 
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array in variable q2.
  */
 
-// Your code here
+var q2 = images[0];
+console.log(q2);
 
 /**
  * Question 3
  * Get the length of the first array (number of elements in the array) and store it in variable q3
  */
 
-// Your code here
+var q3 = images.length;
+console.log(q3);
 
 /**
  * Question 4
@@ -32,8 +35,8 @@
  */
 
 
-// Your code here
-
+var q4 = images[q3-1];
+console.log(q4);
 
 // ____________________________________________________________________________
 
@@ -50,8 +53,16 @@
 The end result should be an array of numbers with values 2,3,4,5
  */
 
-// Your code here
+var q1 = [1,2,3,4];
 
+q1.forEach(function(i) {
+  console.log[i+1];
+})
+
+
+// for(i=0;i<q1.length;i++) {
+//   [i+1];
+// }
 
 /**
  * Question 2
